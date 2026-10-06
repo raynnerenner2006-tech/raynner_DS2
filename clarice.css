@@ -1,0 +1,43 @@
+:root{
+    --cor-principal: red;
+    --cor-secundaria: white;
+    --cor-fonte: rgb(168, 128, 128);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    gap: 10px;
+}
+
+.conteiner1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(214, 84, 94);
+    border: solid 10px;
+    padding: 10px;
+    box-sizing: content-box;
+
+}
+.conteiner1 img{
+    width: 75px;
+
+}
+
+.conteiner2 img{
+    width: 75px;
+}
+.conteiner2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(91, 91, 223);
+    border: solid 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+body{
+    justify-content: center;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100.900&display=swap');
+
+:root{
+    --corPrincipal: #22D4FD;
+    --corSecundaria: #000;
+    --corTerciaria: #F6F6F6;
+
+    --fontePrincipal: "Montserrat", sans-serif;
+    --fonteSecundaria: "Krona One", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--corSecundaria);
+    color: var(--corTerciaria);
+}
+
+header{
+    background-color: var(--corSecundaria);
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho{
+    display: flex;
+    gap: 129px;
+}
+
+.cabecalho-link{
+     color: var(--corPrincipal);
+     font-family: var(--fontePrincipal);
+     font-size: 24px;
+     font-weight: bold;
+     text-decoration: none;
+
+}
+
+main{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.container-titulo-destaque{
+    color: var(--corPrincipal);
+}
+.container-texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.container-texto-titulo{
+    font-family: var(--fonteSecundaria);
+    color: var(--corTerciaria);
+}
+
+.container-texto-paragrafo{
+    font-family: var(--fontePrincipal);
+    color: var(--corTerciaria);
+    font-size: 16px;
+    font-weight: 1;
+    text-align: justify;
+}
+
+.container-texto-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+button{
+    background-color: var(--corPrincipal);
+    border: solid 1px;
+    border-radius: 16px;
+    padding: 22px 52px;
+    color: var(--corSecundaria);
+    font-size: 24px;
+    font-family: var(--fontePrincipal);
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
+.container-foto{
+    width: 50%;
+}
+
+footer{
+    color: var(--corSecundaria);
+    background-color: var(--corPrincipal);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fontePrincipal);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width:1100){
+    main{
+        display: flex;
+        
+    }
+
+
+}

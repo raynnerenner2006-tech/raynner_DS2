@@ -1,0 +1,47 @@
+:root{
+    --corPrincipal: rgb(5, 5, 113);
+    --corSecundaria: rgb(229, 229, 232);
+    --corTerciaria: rgb(250, 246, 246);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--corPrincipal);
+    color: var(--corTerciaria);
+    /* height: 100px; */
+    text-align: center;
+    padding: 10px;
+    height: 20vh;
+}
+main{
+    background-color: var(--corSecundaria);
+    padding: 30px 20px;
+    height: 70vh;
+}
+section{
+    display: flex;
+    gap: 24px;
+    padding-top: 20px;
+    align-items: stretch;
+}
+.cards{
+    background-color: var(--corTerciaria);
+    border-radius: 20px;
+    padding: 10px;
+    width: 220px;
+}
+.cards img{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+footer{
+    background-color: var(--corPrincipal);
+    color: var(--corTerciaria);
+    text-align: center;
+    padding: 10px;
+    height: 10vh;
+}    

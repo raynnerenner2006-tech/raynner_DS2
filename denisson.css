@@ -1,0 +1,46 @@
+  label:hover{
+            color:aqua;
+        }
+        a{
+            text-decoration: underline;
+            text-transform: capitalize;
+            display: inline;
+        }
+        #insetos {background-color: #1a7905;}
+        #repteis {background-color: #e1af09;}
+        .imagem{display: flex; flex-direction: row-reverse; gap: 300px; justify-content: center;}
+
+             
+        hr{
+            border: solid 2px;
+            margin-bottom: 5px;
+        }
+        .fundo{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            object-fit: cover;
+        }
+        .fundo1{
+            background-color: #71f853;
+        }
+        .btmenu{
+            padding: 30px;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #71f853;
+            color: black;
+            
+        }
+        .alinharbt{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }

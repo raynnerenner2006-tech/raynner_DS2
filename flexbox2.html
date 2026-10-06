@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        :root {
+            --corp: #3838bb;
+            --fundo: rgb(224, 222, 222);
+        }
+        header {
+            background-color: var(--corp);
+            color: white;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 110px;
+        }
+        img{
+            height: 180px;
+            width: 160px;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+        }
+        aside{
+            display: flex;
+            gap: 10px;
+            background-color: white;
+            padding: 50px;
+        }
+        .cards{
+            background-color: var(--fundo);
+            border-radius: 15px;
+            padding: 15px;
+        }
+        footer {
+            background-color: var(--corp);
+            color: white;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 70px;
+            align-content: center;
+        }
+    </style>
+    <header>
+        <h1>FlexCards</h1>
+        <p>Aprendendo Flexbox na prática</p>
+    </header>
+    <main>
+        <h3>Galeria de Cards</h3>
+        <p>Use o Display: Flex para reoganizar os cards. Teste diferentes possibilidades de posicionamentos</p>
+
+        <aside>
+            <div class="cards">
+                <img src="computador.avif.jpg" alt="">
+                <h3>Desenvolvimento Web</h3>
+                <P>Criação de sites modernos e responsivos.</P>
+            </div>
+             <div class="cards">
+            <img src="pc.avif.jpg" alt="">
+            <h3>UI/UX Design</h3>
+            <P>Interfaces bonitas e fáceis de utilizar.</P>
+            </div>
+            <div class="cards">
+                <img src="codigo.jpeg" alt="">
+                <h3>Programação</h3>
+                <p>Desenvolvimento de soluções utilizando código.</p>
+            </div>
+             <div class="cards">
+                <img src="camera.jpg" alt="">
+                <h3>Fotografia</h3>
+                <p>Registro de momentos atraves da imagem.</p>
+            </div>
+             <div class="cards">
+                <img src="sala.jpg" alt="">
+                <h3>Marketing Digital</h3>
+                <p>Estratégias para comunicação no ambiente digital.</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>FlexCards -- AULA PRÁTICA DE CSS</p>
+    </footer>
+    
+</body>
+</html>

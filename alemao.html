@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color:greenyellow ;
+}
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(192, 7, 7);
+    color: white;
+    padding: 100px;
+    border-radius: 30px;
+    box-shadow: -30px 10px 10px black;
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.campo{
+    flex-direction: column;
+    display: flex;
+    
+}
+input{
+    border-radius: 20px;
+    padding: 4px;
+    background-color: blueviolet;
+    color: aqua;
+}
+::placeholder{
+    color:white
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 15px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 4px;
+}
+footer{
+    padding: 14px;
+    background-color: purple;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <li>
+            <ul>
+            inicio
+            </ul>
+            <ul>
+            download
+            </ul>
+            <ul>
+                macaco
+            </ul>
+            <ul>
+                neguinho
+            </ul>
+            <ul>
+                marrom bombom
+            </ul>
+        </li>
+    </header>
+    <main>
+            <form action="">
+        <div class="box">
+
+                <h1>Login</h1>
+                <div class="campo">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="" placeholder="Digite seu email">
+                </div>
+
+                <div class="campo">
+                    <label for="">Senha</label>
+                    <input type="password" name="" id="" placeholder="Digite sua senha">
+                </div>
+                <button>click aqui</button>
+        </div>
+            </form>
+    </main>
+    <footer>
+ parte de baixo
+    </footer>
+</body>
+</html>

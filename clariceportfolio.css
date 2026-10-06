@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100.900&display=swap');
+
+:root{
+    --corPrincipal: #22D4FD;
+    --corSecundaria: #000;
+    --corTerciaria: #F6F6F6;
+
+    --fontePrincipal: "Montserrat", sans-serif;
+    --fonteSecundaria: "Krona One", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--corSecundaria);
+    color: var(--corTerciaria);
+}
+
+header{
+    background-color: var(--corSecundaria);
+}
+.cabecalho{
+    padding-top: 43px 0px 0px 362px;
+    /* padding-left: 362px; */
+    display: flex;
+    gap: 129px;
+}
+
+.cabecalho-link{
+     color: var(--corPrincipal);
+     font-family: var(--fontePrincipal);
+     font-size: 24px;
+     font-weight: bold;
+     text-decoration: none;
+
+}
+
+main{
+    display: flex;
+    padding: 200px 402px 357px;
+    gap: 80px;
+    height: 615px;
+}
+.container-texto-titulo{
+    font-family: var(--fontePrincipal);
+    color: var(--corTerciaria);
+    padding-bottom: 60px;
+    font-size: 36px;
+}
+.container-texto-paragrafo{
+    font-family: var(--fonteSecundaria);
+    color: var(--corTerciaria);
+    font-size: 24px;
+    font-weight: 50;
+}
+
+.container-texto-link{
+    display: flex;
+    gap: 20;
+
+}:root{
+    --corPrincipal: #22D4FD;
+    --corSecundaria: #000;
+    --corTerciaria: #F6F6F6;
+
+    --fontePrincipal: "Montserrat", sans-serif;
+    --fonteSecundaria: "Krona One", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--corSecundaria);
+    color: var(--corTerciaria);
+}
+
+header{
+    background-color: var(--corSecundaria);
+}
+.cabecalho{
+    padding-top: 43px 0px 0px 362px;
+    /* padding-left: 362px; */
+    display: flex;
+    gap: 129px;
+}
+
+.cabecalho-link{
+     color: var(--corPrincipal);
+     font-family: var(--fontePrincipal);
+     font-size: 24px;
+     font-weight: bold;
+     text-decoration: none;
+
+}
+
+main{
+    display: flex;
+    padding: 200px 402px 357px;
+    gap: 80px;
+    height: 615px;
+}
+.container-texto-titulo{
+    font-family: var(--fontePrincipal);
+    color: var(--corTerciaria);
+    padding-bottom: 60px;
+    font-size: 36px;
+}
+.container-texto-paragrafo{
+    font-family: var(--fonteSecundaria);
+    color: var(--corTerciaria);
+    font-size: 24px;
+    font-weight: 50;
+}
+
+.container-texto-link{
+    display: flex;
+    gap: 20;
+
+}
+.container-foto{
+    
+}
